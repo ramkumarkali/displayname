@@ -2,9 +2,9 @@ import './App.css';
 import { useState } from 'react';
 
 function App() {
-  const [firstname , setFirstname] = useState(null);
-  const [lastname , setlastname] = useState(null);
-  const [fullname , setFullname] = useState(null);
+  const [firstname , setFirstname] = useState();
+  const [lastname , setlastname] = useState();
+  const [fullname , setFullname] = useState();
 
 
   const handlesubmit = (e) =>{
